@@ -1,0 +1,14 @@
+site:
+  title: "V"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/veni.js"
+      api: "build/libs/veni.jar"
+    prod:
+      script: "build/distributions/veni.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
